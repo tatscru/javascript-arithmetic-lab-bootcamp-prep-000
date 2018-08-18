@@ -75,4 +75,3 @@ function makeInt(n) {
 function makeInt(n) {
   return isNaN('n', 10)
 }
-}
