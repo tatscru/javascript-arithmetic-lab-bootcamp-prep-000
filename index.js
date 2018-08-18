@@ -75,9 +75,9 @@ parseInt('nonsense!', 10)
 parseFloat('80.123999')
 
 function makeInt(n) {
-  return parseInt('n', 10)
+  return parseInt(n, 10)
 }
 
 function preserveDecimal(n) {
-  return parseFloat('n')
+  return parseFloat(n)
 }
