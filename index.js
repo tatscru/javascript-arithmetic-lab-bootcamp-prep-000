@@ -76,5 +76,6 @@ function makeInt(n) {
   return isNaN('n', 10)
 }
 
-function preserveDecimal(n)
-  return 
+function preserveDecimal(n) {
+  return parseFloat(n)
+}
