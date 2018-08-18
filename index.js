@@ -67,6 +67,11 @@ function inc(n) {
 function dec(n) {
   return (n - 1)
 }
+parseInt('2.2222', 10)
+
+parseInt('nonsense!', 10)
+
+parseFloat('80.123999')
 
 function makeInt(n) {
   return parseInt('n', 10)
