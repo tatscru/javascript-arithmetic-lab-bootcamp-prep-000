@@ -67,6 +67,7 @@ function inc(n) {
 function dec(n) {
   return (n - 1)
 }
+
 parseInt('2.2222', 10)
 
 parseInt('nonsense!', 10)
@@ -78,7 +79,7 @@ function makeInt(n) {
 }
 
 function makeInt(n) {
-  return isNaN('n', 10)
+  return isNaN('nonsense!', 10)
 }
 
 function preserveDecimal(n) {
